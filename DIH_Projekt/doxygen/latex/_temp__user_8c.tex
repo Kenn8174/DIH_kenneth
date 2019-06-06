@@ -1,0 +1,85 @@
+\hypertarget{_temp__user_8c}{}\section{Temperatur/\+Temp\+\_\+user/\+Temp\+\_\+user.c File Reference}
+\label{_temp__user_8c}\index{Temperatur/Temp\_user/Temp\_user.c@{Temperatur/Temp\_user/Temp\_user.c}}
+{\ttfamily \#include $<$util/delay.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stdio\+\_\+setup.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$avr/io.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}lcd/lcd.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Column\+Scan/\+Column\+Scan.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Read\+Row/\+Read\+Row.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Temp\+\_\+user/\+Temp\+\_\+user\+\_\+decoder/\+Temp\+\_\+user\+\_\+decoder.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Temp\+\_\+user/\+Temp\+\_\+user\+\_\+display/\+Temp\+\_\+user\+\_\+display.\+h\char`\"{}}\newline
+Include dependency graph for Temp\+\_\+user.\+c\+:
+% FIG 0
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_temp__user_8c_a43bafb28b29491ec7f871319b5a3b2f8}{F\+\_\+\+C\+PU}}~16\+E6
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_temp__user_8c_aaa0897e2438c0ee0c669544f5c6d59b5}{Temp\+\_\+user}} ()
+\begin{DoxyCompactList}\small\item\em Temp\+\_\+user. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{_temp__user_8c_a1a79a839f4e7254ef74856443a09c874}{user\+\_\+column}} = 1
+\item 
+unsigned int \mbox{\hyperlink{_temp__user_8c_a1241e0a793f0e65ac31091cd576578de}{user\+\_\+row}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_temp__user_8c_a43bafb28b29491ec7f871319b5a3b2f8}\label{_temp__user_8c_a43bafb28b29491ec7f871319b5a3b2f8}} 
+\index{Temp\_user.c@{Temp\_user.c}!F\_CPU@{F\_CPU}}
+\index{F\_CPU@{F\_CPU}!Temp\_user.c@{Temp\_user.c}}
+\subsubsection{\texorpdfstring{F\_CPU}{F\_CPU}}
+{\footnotesize\ttfamily \#define F\+\_\+\+C\+PU~16\+E6}
+
+
+
+Definition at line 8 of file Temp\+\_\+user.\+c.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_temp__user_8c_aaa0897e2438c0ee0c669544f5c6d59b5}\label{_temp__user_8c_aaa0897e2438c0ee0c669544f5c6d59b5}} 
+\index{Temp\_user.c@{Temp\_user.c}!Temp\_user@{Temp\_user}}
+\index{Temp\_user@{Temp\_user}!Temp\_user.c@{Temp\_user.c}}
+\subsubsection{\texorpdfstring{Temp\_user()}{Temp\_user()}}
+{\footnotesize\ttfamily void Temp\+\_\+user (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Temp\+\_\+user. 
+
+Temp\+\_\+user giver brugen om at styrre blæseren mauelt. Brugeren vælger mellem 0-\/9 og blæseren vil så øge eller nedsætte hastigheden efter brugerens valg. 
+
+Definition at line 26 of file Temp\+\_\+user.\+c.
+
+Here is the call graph for this function\+:
+% FIG 1
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_temp__user_8c_a1a79a839f4e7254ef74856443a09c874}\label{_temp__user_8c_a1a79a839f4e7254ef74856443a09c874}} 
+\index{Temp\_user.c@{Temp\_user.c}!user\_column@{user\_column}}
+\index{user\_column@{user\_column}!Temp\_user.c@{Temp\_user.c}}
+\subsubsection{\texorpdfstring{user\_column}{user\_column}}
+{\footnotesize\ttfamily unsigned int user\+\_\+column = 1}
+
+
+
+Definition at line 21 of file Temp\+\_\+user.\+c.
+
+\mbox{\Hypertarget{_temp__user_8c_a1241e0a793f0e65ac31091cd576578de}\label{_temp__user_8c_a1241e0a793f0e65ac31091cd576578de}} 
+\index{Temp\_user.c@{Temp\_user.c}!user\_row@{user\_row}}
+\index{user\_row@{user\_row}!Temp\_user.c@{Temp\_user.c}}
+\subsubsection{\texorpdfstring{user\_row}{user\_row}}
+{\footnotesize\ttfamily unsigned int user\+\_\+row}
+
+
+
+Definition at line 22 of file Temp\+\_\+user.\+c.
+

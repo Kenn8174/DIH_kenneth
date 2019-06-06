@@ -1,0 +1,84 @@
+\hypertarget{_temp__menu_8c}{}\section{Temperatur/\+Temp\+\_\+menu.c File Reference}
+\label{_temp__menu_8c}\index{Temperatur/Temp\_menu.c@{Temperatur/Temp\_menu.c}}
+{\ttfamily \#include $<$util/delay.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stdio\+\_\+setup.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$avr/io.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Column\+Scan/\+Column\+Scan.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Read\+Row/\+Read\+Row.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Temp\+\_\+decoder/\+Temp\+\_\+decoder.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Temp\+\_\+choices/\+Temp\+\_\+choices.\+h\char`\"{}}\newline
+Include dependency graph for Temp\+\_\+menu.\+c\+:
+% FIG 0
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_temp__menu_8c_a43bafb28b29491ec7f871319b5a3b2f8}{F\+\_\+\+C\+PU}}~16\+E6
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_temp__menu_8c_ad9606ca30aa95e62cc2b802978563fff}{Temp\+\_\+menu}} ()
+\begin{DoxyCompactList}\small\item\em Temp\+\_\+menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{_temp__menu_8c_abfcd9082aa997956e45ab8d36159ec49}{column\+Temp}} = 1
+\item 
+unsigned int \mbox{\hyperlink{_temp__menu_8c_a00ad6937dff8ed09b0bd49fd2abee7f0}{row\+Temp}} = 90
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_temp__menu_8c_a43bafb28b29491ec7f871319b5a3b2f8}\label{_temp__menu_8c_a43bafb28b29491ec7f871319b5a3b2f8}} 
+\index{Temp\_menu.c@{Temp\_menu.c}!F\_CPU@{F\_CPU}}
+\index{F\_CPU@{F\_CPU}!Temp\_menu.c@{Temp\_menu.c}}
+\subsubsection{\texorpdfstring{F\_CPU}{F\_CPU}}
+{\footnotesize\ttfamily \#define F\+\_\+\+C\+PU~16\+E6}
+
+
+
+Definition at line 8 of file Temp\+\_\+menu.\+c.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_temp__menu_8c_ad9606ca30aa95e62cc2b802978563fff}\label{_temp__menu_8c_ad9606ca30aa95e62cc2b802978563fff}} 
+\index{Temp\_menu.c@{Temp\_menu.c}!Temp\_menu@{Temp\_menu}}
+\index{Temp\_menu@{Temp\_menu}!Temp\_menu.c@{Temp\_menu.c}}
+\subsubsection{\texorpdfstring{Temp\_menu()}{Temp\_menu()}}
+{\footnotesize\ttfamily void Temp\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Temp\+\_\+menu. 
+
+Temp\+\_\+menu er menuen til temperatur, her har brugeren mulighed for at vælge imellem Auto eller User. Auto vil læse temperaturen i rummet og justere blæseren hastighed. User giver brugeren mulighed for selv at justere blæsrens hastighed. 
+
+Definition at line 27 of file Temp\+\_\+menu.\+c.
+
+Here is the call graph for this function\+:
+% FIG 1
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_temp__menu_8c_abfcd9082aa997956e45ab8d36159ec49}\label{_temp__menu_8c_abfcd9082aa997956e45ab8d36159ec49}} 
+\index{Temp\_menu.c@{Temp\_menu.c}!columnTemp@{columnTemp}}
+\index{columnTemp@{columnTemp}!Temp\_menu.c@{Temp\_menu.c}}
+\subsubsection{\texorpdfstring{columnTemp}{columnTemp}}
+{\footnotesize\ttfamily unsigned int column\+Temp = 1}
+
+
+
+Definition at line 18 of file Temp\+\_\+menu.\+c.
+
+\mbox{\Hypertarget{_temp__menu_8c_a00ad6937dff8ed09b0bd49fd2abee7f0}\label{_temp__menu_8c_a00ad6937dff8ed09b0bd49fd2abee7f0}} 
+\index{Temp\_menu.c@{Temp\_menu.c}!rowTemp@{rowTemp}}
+\index{rowTemp@{rowTemp}!Temp\_menu.c@{Temp\_menu.c}}
+\subsubsection{\texorpdfstring{rowTemp}{rowTemp}}
+{\footnotesize\ttfamily unsigned int row\+Temp = 90}
+
+
+
+Definition at line 19 of file Temp\+\_\+menu.\+c.
+

@@ -1,0 +1,27 @@
+digraph "setup/stdio_setup.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="setup/stdio_setup.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="Afstand/Afstand_beregner\l/Afstand_beregner.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_afstand__beregner_8c.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="Afstand/Afstand_display\l/Afstand_display.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_afstand__display_8c.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="Init/Init.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_init_8c.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="Menu/Menu.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8c.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="Temperatur/Temp_auto\l/Temp_auto.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__auto_8c.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="Temperatur/Temp_auto\l/Temp_auto_display/Temp\l_auto_display.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__auto__display_8c.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="Temperatur/Temp_auto\l/Temp_beregner/Temp_beregner.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__beregner_8c.html",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="Temperatur/Temp_menu.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__menu_8c.html",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="Temperatur/Temp_user\l/Temp_user.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__user_8c.html",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="Temperatur/Temp_user\l/Temp_user_display/Temp\l_user_display.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__user__display_8c.html",tooltip=" "];
+}

@@ -1,0 +1,19 @@
+digraph "Temperatur/Temp_auto" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3e5f63dad56067a02c062d794aa452a2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Temperatur" fontname="Helvetica", fontsize="10", URL="dir_3e5f63dad56067a02c062d794aa452a2.html"]
+  subgraph clusterdir_ed03ee7a0c350edb48fa8bfa7ecf1ae8 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ed03ee7a0c350edb48fa8bfa7ecf1ae8.html"];
+    dir_ed03ee7a0c350edb48fa8bfa7ecf1ae8 [shape=plaintext label="Temp_auto"];
+    dir_b6d24fc7a45a2ebb6afea00423ecfc68 [shape=box label="Temp_auto_display" color="black" fillcolor="white" style="filled" URL="dir_b6d24fc7a45a2ebb6afea00423ecfc68.html"];
+    dir_0173f08f0ece2fe8ff373512ae7dbec1 [shape=box label="Temp_beregner" color="black" fillcolor="white" style="filled" URL="dir_0173f08f0ece2fe8ff373512ae7dbec1.html"];
+  }
+  }
+  dir_23cb120d669071c3724c6f6330318f9c [shape=box label="setup" URL="dir_23cb120d669071c3724c6f6330318f9c.html"];
+  dir_ed03ee7a0c350edb48fa8bfa7ecf1ae8->dir_23cb120d669071c3724c6f6330318f9c [headlabel="3", labeldistance=1.5 headhref="dir_000027_000025.html"];
+  dir_ed03ee7a0c350edb48fa8bfa7ecf1ae8->dir_0173f08f0ece2fe8ff373512ae7dbec1 [headlabel="1", labeldistance=1.5 headhref="dir_000027_000029.html"];
+  dir_0173f08f0ece2fe8ff373512ae7dbec1->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000029_000025.html"];
+  dir_b6d24fc7a45a2ebb6afea00423ecfc68->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000028_000025.html"];
+}

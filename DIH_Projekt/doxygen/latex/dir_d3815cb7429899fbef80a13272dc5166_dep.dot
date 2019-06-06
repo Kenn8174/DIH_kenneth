@@ -1,0 +1,19 @@
+digraph "Temperatur/Temp_user" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3e5f63dad56067a02c062d794aa452a2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Temperatur" fontname="Helvetica", fontsize="10", URL="dir_3e5f63dad56067a02c062d794aa452a2.html"]
+  subgraph clusterdir_d3815cb7429899fbef80a13272dc5166 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d3815cb7429899fbef80a13272dc5166.html"];
+    dir_d3815cb7429899fbef80a13272dc5166 [shape=plaintext label="Temp_user"];
+    dir_2d2632970719020e2f571a1e20fdb863 [shape=box label="Temp_user_decoder" color="black" fillcolor="white" style="filled" URL="dir_2d2632970719020e2f571a1e20fdb863.html"];
+    dir_d89927c996274916e2f708afb9ad0d9b [shape=box label="Temp_user_display" color="black" fillcolor="white" style="filled" URL="dir_d89927c996274916e2f708afb9ad0d9b.html"];
+  }
+  }
+  dir_23cb120d669071c3724c6f6330318f9c [shape=box label="setup" URL="dir_23cb120d669071c3724c6f6330318f9c.html"];
+  dir_d3815cb7429899fbef80a13272dc5166->dir_23cb120d669071c3724c6f6330318f9c [headlabel="2", labeldistance=1.5 headhref="dir_000032_000025.html"];
+  dir_d3815cb7429899fbef80a13272dc5166->dir_2d2632970719020e2f571a1e20fdb863 [headlabel="1", labeldistance=1.5 headhref="dir_000032_000033.html"];
+  dir_d3815cb7429899fbef80a13272dc5166->dir_d89927c996274916e2f708afb9ad0d9b [headlabel="1", labeldistance=1.5 headhref="dir_000032_000034.html"];
+  dir_d89927c996274916e2f708afb9ad0d9b->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000034_000025.html"];
+}

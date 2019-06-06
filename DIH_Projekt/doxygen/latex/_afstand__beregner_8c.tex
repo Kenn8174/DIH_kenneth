@@ -1,0 +1,151 @@
+\hypertarget{_afstand__beregner_8c}{}\section{Afstand/\+Afstand\+\_\+beregner/\+Afstand\+\_\+beregner.c File Reference}
+\label{_afstand__beregner_8c}\index{Afstand/Afstand\_beregner/Afstand\_beregner.c@{Afstand/Afstand\_beregner/Afstand\_beregner.c}}
+{\ttfamily \#include \char`\"{}avr/io.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}avr/interrupt.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}util/delay.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stdio\+\_\+setup.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}lcd/lcd.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Afstand/\+Pulse/\+Pulse.\+h\char`\"{}}\newline
+Include dependency graph for Afstand\+\_\+beregner.\+c\+:
+% FIG 0
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_afstand__beregner_8c_a43bafb28b29491ec7f871319b5a3b2f8}{F\+\_\+\+C\+PU}}~16\+E6
+\item 
+\#define \mbox{\hyperlink{_afstand__beregner_8c_a5b397597422a5a54c07ad100c09c97e7}{S\+T\+A\+R\+T\+\_\+\+T\+I\+M\+ER}}~T\+C\+C\+R1B $\vert$= ((1 $<$$<$ C\+S11) $\vert$ (1 $<$$<$ C\+S10))
+\item 
+\#define \mbox{\hyperlink{_afstand__beregner_8c_a66c59b488e6f6a1f1f4204742de4a8c1}{S\+T\+O\+P\+\_\+\+T\+I\+M\+ER}}~T\+C\+C\+R1B \&= $\sim$((1 $<$$<$ C\+S11) $\vert$ (1 $<$$<$ C\+S10))
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_afstand__beregner_8c_a26b5946cce70171aa9e42c28e30b17ba}{Afstand\+\_\+beregner}} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile unsigned int \mbox{\hyperlink{_afstand__beregner_8c_aeae72be48a86f4d1c63f42a7de9648bf}{pulse\+Start}}
+\item 
+volatile unsigned int \mbox{\hyperlink{_afstand__beregner_8c_a0a075807cec958b629c813a29ce2acf7}{pulse\+End}}
+\item 
+volatile unsigned int \mbox{\hyperlink{_afstand__beregner_8c_a77a82c52bad776901862c768a2d8e2f9}{pulse\+In\+Us}} = 2013
+\item 
+volatile unsigned char \mbox{\hyperlink{_afstand__beregner_8c_af418c735e54b1d9f334c53c33bb8c216}{edge}} =0
+\item 
+volatile unsigned int \mbox{\hyperlink{_afstand__beregner_8c_ac3eddaec9e4b7e72dd10bd4d82166efa}{success}} = 0
+\item 
+volatile unsigned int \mbox{\hyperlink{_afstand__beregner_8c_a448de1d10886ddc2e04d35cf69f69e02}{failure}} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_afstand__beregner_8c_a43bafb28b29491ec7f871319b5a3b2f8}\label{_afstand__beregner_8c_a43bafb28b29491ec7f871319b5a3b2f8}} 
+\index{Afstand\_beregner.c@{Afstand\_beregner.c}!F\_CPU@{F\_CPU}}
+\index{F\_CPU@{F\_CPU}!Afstand\_beregner.c@{Afstand\_beregner.c}}
+\subsubsection{\texorpdfstring{F\_CPU}{F\_CPU}}
+{\footnotesize\ttfamily \#define F\+\_\+\+C\+PU~16\+E6}
+
+
+
+Definition at line 10 of file Afstand\+\_\+beregner.\+c.
+
+\mbox{\Hypertarget{_afstand__beregner_8c_a5b397597422a5a54c07ad100c09c97e7}\label{_afstand__beregner_8c_a5b397597422a5a54c07ad100c09c97e7}} 
+\index{Afstand\_beregner.c@{Afstand\_beregner.c}!START\_TIMER@{START\_TIMER}}
+\index{START\_TIMER@{START\_TIMER}!Afstand\_beregner.c@{Afstand\_beregner.c}}
+\subsubsection{\texorpdfstring{START\_TIMER}{START\_TIMER}}
+{\footnotesize\ttfamily \#define S\+T\+A\+R\+T\+\_\+\+T\+I\+M\+ER~T\+C\+C\+R1B $\vert$= ((1 $<$$<$ C\+S11) $\vert$ (1 $<$$<$ C\+S10))}
+
+
+
+Definition at line 17 of file Afstand\+\_\+beregner.\+c.
+
+\mbox{\Hypertarget{_afstand__beregner_8c_a66c59b488e6f6a1f1f4204742de4a8c1}\label{_afstand__beregner_8c_a66c59b488e6f6a1f1f4204742de4a8c1}} 
+\index{Afstand\_beregner.c@{Afstand\_beregner.c}!STOP\_TIMER@{STOP\_TIMER}}
+\index{STOP\_TIMER@{STOP\_TIMER}!Afstand\_beregner.c@{Afstand\_beregner.c}}
+\subsubsection{\texorpdfstring{STOP\_TIMER}{STOP\_TIMER}}
+{\footnotesize\ttfamily \#define S\+T\+O\+P\+\_\+\+T\+I\+M\+ER~T\+C\+C\+R1B \&= $\sim$((1 $<$$<$ C\+S11) $\vert$ (1 $<$$<$ C\+S10))}
+
+
+
+Definition at line 18 of file Afstand\+\_\+beregner.\+c.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_afstand__beregner_8c_a26b5946cce70171aa9e42c28e30b17ba}\label{_afstand__beregner_8c_a26b5946cce70171aa9e42c28e30b17ba}} 
+\index{Afstand\_beregner.c@{Afstand\_beregner.c}!Afstand\_beregner@{Afstand\_beregner}}
+\index{Afstand\_beregner@{Afstand\_beregner}!Afstand\_beregner.c@{Afstand\_beregner.c}}
+\subsubsection{\texorpdfstring{Afstand\_beregner()}{Afstand\_beregner()}}
+{\footnotesize\ttfamily void Afstand\+\_\+beregner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 27 of file Afstand\+\_\+beregner.\+c.
+
+Here is the call graph for this function\+:
+% FIG 1
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_afstand__beregner_8c_af418c735e54b1d9f334c53c33bb8c216}\label{_afstand__beregner_8c_af418c735e54b1d9f334c53c33bb8c216}} 
+\index{Afstand\_beregner.c@{Afstand\_beregner.c}!edge@{edge}}
+\index{edge@{edge}!Afstand\_beregner.c@{Afstand\_beregner.c}}
+\subsubsection{\texorpdfstring{edge}{edge}}
+{\footnotesize\ttfamily volatile unsigned char edge =0}
+
+
+
+Definition at line 23 of file Afstand\+\_\+beregner.\+c.
+
+\mbox{\Hypertarget{_afstand__beregner_8c_a448de1d10886ddc2e04d35cf69f69e02}\label{_afstand__beregner_8c_a448de1d10886ddc2e04d35cf69f69e02}} 
+\index{Afstand\_beregner.c@{Afstand\_beregner.c}!failure@{failure}}
+\index{failure@{failure}!Afstand\_beregner.c@{Afstand\_beregner.c}}
+\subsubsection{\texorpdfstring{failure}{failure}}
+{\footnotesize\ttfamily volatile unsigned int failure = 0}
+
+
+
+Definition at line 25 of file Afstand\+\_\+beregner.\+c.
+
+\mbox{\Hypertarget{_afstand__beregner_8c_a0a075807cec958b629c813a29ce2acf7}\label{_afstand__beregner_8c_a0a075807cec958b629c813a29ce2acf7}} 
+\index{Afstand\_beregner.c@{Afstand\_beregner.c}!pulseEnd@{pulseEnd}}
+\index{pulseEnd@{pulseEnd}!Afstand\_beregner.c@{Afstand\_beregner.c}}
+\subsubsection{\texorpdfstring{pulseEnd}{pulseEnd}}
+{\footnotesize\ttfamily volatile unsigned int pulse\+End}
+
+
+
+Definition at line 21 of file Afstand\+\_\+beregner.\+c.
+
+\mbox{\Hypertarget{_afstand__beregner_8c_a77a82c52bad776901862c768a2d8e2f9}\label{_afstand__beregner_8c_a77a82c52bad776901862c768a2d8e2f9}} 
+\index{Afstand\_beregner.c@{Afstand\_beregner.c}!pulseInUs@{pulseInUs}}
+\index{pulseInUs@{pulseInUs}!Afstand\_beregner.c@{Afstand\_beregner.c}}
+\subsubsection{\texorpdfstring{pulseInUs}{pulseInUs}}
+{\footnotesize\ttfamily volatile unsigned int pulse\+In\+Us = 2013}
+
+
+
+Definition at line 22 of file Afstand\+\_\+beregner.\+c.
+
+\mbox{\Hypertarget{_afstand__beregner_8c_aeae72be48a86f4d1c63f42a7de9648bf}\label{_afstand__beregner_8c_aeae72be48a86f4d1c63f42a7de9648bf}} 
+\index{Afstand\_beregner.c@{Afstand\_beregner.c}!pulseStart@{pulseStart}}
+\index{pulseStart@{pulseStart}!Afstand\_beregner.c@{Afstand\_beregner.c}}
+\subsubsection{\texorpdfstring{pulseStart}{pulseStart}}
+{\footnotesize\ttfamily volatile unsigned int pulse\+Start}
+
+
+
+Definition at line 20 of file Afstand\+\_\+beregner.\+c.
+
+\mbox{\Hypertarget{_afstand__beregner_8c_ac3eddaec9e4b7e72dd10bd4d82166efa}\label{_afstand__beregner_8c_ac3eddaec9e4b7e72dd10bd4d82166efa}} 
+\index{Afstand\_beregner.c@{Afstand\_beregner.c}!success@{success}}
+\index{success@{success}!Afstand\_beregner.c@{Afstand\_beregner.c}}
+\subsubsection{\texorpdfstring{success}{success}}
+{\footnotesize\ttfamily volatile unsigned int success = 0}
+
+
+
+Definition at line 24 of file Afstand\+\_\+beregner.\+c.
+

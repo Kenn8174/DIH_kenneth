@@ -1,0 +1,11 @@
+digraph "Temperatur/Temp_auto/Temp_beregner" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ed03ee7a0c350edb48fa8bfa7ecf1ae8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Temp_auto" fontname="Helvetica", fontsize="10", URL="dir_ed03ee7a0c350edb48fa8bfa7ecf1ae8.html"]
+  dir_0173f08f0ece2fe8ff373512ae7dbec1 [shape=box, label="Temp_beregner", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0173f08f0ece2fe8ff373512ae7dbec1.html"];
+  }
+  dir_23cb120d669071c3724c6f6330318f9c [shape=box label="setup" URL="dir_23cb120d669071c3724c6f6330318f9c.html"];
+  dir_0173f08f0ece2fe8ff373512ae7dbec1->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000029_000025.html"];
+}

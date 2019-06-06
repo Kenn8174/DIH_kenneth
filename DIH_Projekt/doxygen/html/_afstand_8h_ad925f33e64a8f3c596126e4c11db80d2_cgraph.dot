@@ -1,0 +1,12 @@
+digraph "Afstand"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Afstand",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Afstand_beregner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_afstand__beregner_8c.html#a26b5946cce70171aa9e42c28e30b17ba",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Pulse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_pulse_8c.html#ae7e67c4b41efe972e0bd8ccaeacce912",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+digraph "Afstand/Afstand_beregner" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_49f0338531c958853f3013d1d6b3a2fe {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Afstand" fontname="Helvetica", fontsize="10", URL="dir_49f0338531c958853f3013d1d6b3a2fe.html"]
+  dir_5d30dfbbb3c24a27a5099212e56e720c [shape=box, label="Afstand_beregner", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5d30dfbbb3c24a27a5099212e56e720c.html"];
+  }
+  dir_23cb120d669071c3724c6f6330318f9c [shape=box label="setup" URL="dir_23cb120d669071c3724c6f6330318f9c.html"];
+  dir_5d30dfbbb3c24a27a5099212e56e720c->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000001_000025.html"];
+}

@@ -1,0 +1,67 @@
+\hypertarget{_menu__decoder_8c}{}\section{Menu/\+Menu\+\_\+decoder/\+Menu\+\_\+decoder.c File Reference}
+\label{_menu__decoder_8c}\index{Menu/Menu\_decoder/Menu\_decoder.c@{Menu/Menu\_decoder/Menu\_decoder.c}}
+{\ttfamily \#include $<$util/delay.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}../\+Temperatur/\+Temp\+\_\+menu.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Afstand/\+Afstand.\+h\char`\"{}}\newline
+Include dependency graph for Menu\+\_\+decoder.\+c\+:
+% FIG 0
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_menu__decoder_8c_a43bafb28b29491ec7f871319b5a3b2f8}{F\+\_\+\+C\+PU}}~16\+E6
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_menu__decoder_8c_a1db668c1069034f062f5d7f2a8d158f9}{Menu\+\_\+decoder}} (int \mbox{\hyperlink{_menu_8c_abef4005373afc5f302e4fce4a2402f30}{column}}, int \mbox{\hyperlink{_menu_8c_a9d906c5a93f9b913b8a25e4485ff451a}{row}})
+\begin{DoxyCompactList}\small\item\em Menu\+\_\+decoder. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{_menu__decoder_8c_a0f4f56d6f5a62b22383a64cb22f60a25}{chosen}} = 1
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_menu__decoder_8c_a43bafb28b29491ec7f871319b5a3b2f8}\label{_menu__decoder_8c_a43bafb28b29491ec7f871319b5a3b2f8}} 
+\index{Menu\_decoder.c@{Menu\_decoder.c}!F\_CPU@{F\_CPU}}
+\index{F\_CPU@{F\_CPU}!Menu\_decoder.c@{Menu\_decoder.c}}
+\subsubsection{\texorpdfstring{F\_CPU}{F\_CPU}}
+{\footnotesize\ttfamily \#define F\+\_\+\+C\+PU~16\+E6}
+
+
+
+Definition at line 8 of file Menu\+\_\+decoder.\+c.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_menu__decoder_8c_a1db668c1069034f062f5d7f2a8d158f9}\label{_menu__decoder_8c_a1db668c1069034f062f5d7f2a8d158f9}} 
+\index{Menu\_decoder.c@{Menu\_decoder.c}!Menu\_decoder@{Menu\_decoder}}
+\index{Menu\_decoder@{Menu\_decoder}!Menu\_decoder.c@{Menu\_decoder.c}}
+\subsubsection{\texorpdfstring{Menu\_decoder()}{Menu\_decoder()}}
+{\footnotesize\ttfamily void Menu\+\_\+decoder (\begin{DoxyParamCaption}\item[{int}]{column,  }\item[{int}]{row }\end{DoxyParamCaption})}
+
+
+
+Menu\+\_\+decoder. 
+
+Menu\+\_\+decoder henter Kolonne nummeret og Række nummeret som vi fik fra (Column\+Scan) og (Read\+Row). Derefter bliver de sat sammen og smidt ned i switch casen. 
+
+Definition at line 18 of file Menu\+\_\+decoder.\+c.
+
+Here is the call graph for this function\+:
+% FIG 1
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_menu__decoder_8c_a0f4f56d6f5a62b22383a64cb22f60a25}\label{_menu__decoder_8c_a0f4f56d6f5a62b22383a64cb22f60a25}} 
+\index{Menu\_decoder.c@{Menu\_decoder.c}!chosen@{chosen}}
+\index{chosen@{chosen}!Menu\_decoder.c@{Menu\_decoder.c}}
+\subsubsection{\texorpdfstring{chosen}{chosen}}
+{\footnotesize\ttfamily unsigned int chosen = 1}
+
+
+
+Definition at line 13 of file Menu\+\_\+decoder.\+c.
+

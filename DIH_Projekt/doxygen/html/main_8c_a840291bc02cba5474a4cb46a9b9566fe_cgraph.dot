@@ -1,0 +1,39 @@
+digraph "main"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_init_8c.html#a1e3b6d38df0786ccf7f938d60e386aae",tooltip="Init."];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8c.html#afdf1ca9e7afc3e7ec41b47fea4b3d80d",tooltip="Menu."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Menu_choices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu__choices_8c.html#aac234fd0ba5e3c49d1d15b7e2c36be61",tooltip="Menu_choice."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Menu_decoder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu__decoder_8c.html#a1db668c1069034f062f5d7f2a8d158f9",tooltip="Menu_decoder."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Afstand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_afstand_8c.html#ad925f33e64a8f3c596126e4c11db80d2",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Afstand_beregner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_afstand__beregner_8c.html#a26b5946cce70171aa9e42c28e30b17ba",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Pulse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_pulse_8c.html#ae7e67c4b41efe972e0bd8ccaeacce912",tooltip=" "];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Temp_menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__menu_8c.html#ad9606ca30aa95e62cc2b802978563fff",tooltip="Temp_menu."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Temp_choices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__choices_8c.html#aacd2feb997d8a91b673e3dc11e024306",tooltip="Temp_choices."];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Temp_decoder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__decoder_8c.html#a47a45294c125cf7d33cd16a5ed5e2390",tooltip="Temp_decoder."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Temp_auto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__auto_8c.html#a64af0c7a71d6a09b9da097d01d06d2ca",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Temp_beregner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__beregner_8c.html#a99c92d177703f8065ced3d26f72a035f",tooltip=" "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Temp_auto_display",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__auto__display_8c.html#a5cca148d305d164437175e94a08db343",tooltip=" "];
+  Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Temp_user",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__user_8c.html#aaa0897e2438c0ee0c669544f5c6d59b5",tooltip="Temp_user."];
+  Node14 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Temp_user_decoder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__user__decoder_8c.html#a5f20ab39174bfd8568842780ba7f98ab",tooltip=" "];
+}
