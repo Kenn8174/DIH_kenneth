@@ -40,13 +40,13 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(log.o) (__fp_mpack)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_powser.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(log.o) (__fp_powser)
-c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
                               Afstand/Afstand.o (ColumnScan)
-c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
                               Afstand/Afstand.o (ReadRow)
-c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
                               Afstand/Afstand_display/Afstand_display.o (lcd_gotoxy)
-c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
                               Menu/Menu_choices/Menu_choices.o (Pre_display)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
                               (vfprintf)
@@ -91,7 +91,7 @@ Allocating common symbols
 Common symbol       size              file
 
 user_row            0x2               Temperatur/Temp_user/Temp_user.o
-reset_char          0x1               c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+reset_char          0x1               C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
 temp_row            0x2               Temperatur/Temp_auto/Temp_auto.o
 pulseEnd            0x2               Afstand/Afstand_beregner/Afstand_beregner.o
 pulseStart          0x2               Afstand/Afstand_beregner/Afstand_beregner.o
@@ -257,26 +257,26 @@ Discarded input sections
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_powser.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_powser.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_powser.o)
- .text          0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
- .data          0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
- .bss           0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
- .text          0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
- .data          0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
- .bss           0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
- .text          0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
- .data          0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
- .bss           0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .text          0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .data          0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .bss           0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .text          0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .data          0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .bss           0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .text          0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .data          0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .bss           0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
  .text.lcd_data
-                0x00000000       0x14 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000000       0x14 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
  .text.lcd_getxy
-                0x00000000        0x8 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000000        0x8 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
  .text.lcd_home
-                0x00000000        0x8 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000000        0x8 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
  .text.lcd_puts_p
-                0x00000000       0x24 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
- .text          0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
- .data          0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
- .bss           0x00000000        0x0 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+                0x00000000       0x24 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .text          0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+ .data          0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+ .bss           0x00000000        0x0 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
@@ -425,7 +425,7 @@ LOAD Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
 LOAD Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
 START GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a
-LOAD c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a
+LOAD C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a
 END GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libprintf_flt.a
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libscanf_flt.a
@@ -778,38 +778,38 @@ END GROUP
                 0x00000c00       0x4a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_powser.o)
                 0x00000c00                __fp_powser
  .text.ColumnScan
-                0x00000c4a       0x6c c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+                0x00000c4a       0x6c C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
                 0x00000c4a                ColumnScan
- .text.ReadRow  0x00000cb6       0x4a c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .text.ReadRow  0x00000cb6       0x4a C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
                 0x00000cb6                ReadRow
  .text.toggle_e
-                0x00000d00        0x8 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000d00        0x8 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
  .text.lcd_write
-                0x00000d08       0xcc c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000d08       0xcc C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
  .text.lcd_read
-                0x00000dd4       0x72 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000dd4       0x72 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
  .text.lcd_waitbusy
-                0x00000e46       0x12 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000e46       0x12 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
  .text.lcd_command
-                0x00000e58       0x10 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000e58       0x10 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
                 0x00000e58                lcd_command
  .text.lcd_gotoxy
-                0x00000e68       0x10 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000e68       0x10 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
                 0x00000e68                lcd_gotoxy
  .text.lcd_clrscr
-                0x00000e78        0x6 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000e78        0x6 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
                 0x00000e78                lcd_clrscr
  .text.lcd_putc
-                0x00000e7e       0x24 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000e7e       0x24 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
                 0x00000e7e                lcd_putc
  .text.lcd_puts
-                0x00000ea2       0x1e c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000ea2       0x1e C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
                 0x00000ea2                lcd_puts
  .text.lcd_init
-                0x00000ec0       0x7e c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000ec0       0x7e C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
                 0x00000ec0                lcd_init
  .text.Pre_display
-                0x00000f3e        0x8 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+                0x00000f3e        0x8 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
                 0x00000f3e                Pre_display
  .text.avr-libc
                 0x00000f46      0x714 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
@@ -929,7 +929,7 @@ END GROUP
                 0x00800258                temp_row
  COMMON         0x0080025a        0x2 Temperatur/Temp_user/Temp_user.o
                 0x0080025a                user_row
- COMMON         0x0080025c        0x1 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ COMMON         0x0080025c        0x1 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
                 0x0080025c                reset_char
                 0x0080025d                PROVIDE (__bss_end, .)
                 0x0000231a                __data_load_start = LOADADDR (.data)
@@ -999,10 +999,10 @@ END GROUP
  .comment       0x00000030       0x31 Temperatur/Temp_user/Temp_user.o
  .comment       0x00000030       0x31 Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
  .comment       0x00000030       0x31 Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
- .comment       0x00000030       0x31 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
- .comment       0x00000030       0x31 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
- .comment       0x00000030       0x31 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
- .comment       0x00000030       0x31 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+ .comment       0x00000030       0x31 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .comment       0x00000030       0x31 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .comment       0x00000030       0x31 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .comment       0x00000030       0x31 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
  .comment       0x00000030       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
                                  0x2d (size before relaxing)
  .comment       0x0000005c       0x2d c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libscanf_flt.a(vfscanf_flt.o)
@@ -1068,91 +1068,91 @@ END GROUP
  .debug_aranges
                 0x00000200       0x20 Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
  .debug_aranges
-                0x00000220       0x20 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+                0x00000220       0x20 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
  .debug_aranges
-                0x00000240       0x20 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+                0x00000240       0x20 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
  .debug_aranges
-                0x00000260       0x88 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+                0x00000260       0x88 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
  .debug_aranges
-                0x000002e8       0x20 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+                0x000002e8       0x20 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x2915
+.debug_info     0x00000000     0x2946
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0xbbc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega2560/avr6/crtatmega2560.o
  .debug_info    0x00000bbc      0x10f Afstand/Afstand.o
  .debug_info    0x00000ccb      0x113 Afstand/Afstand_beregner/Afstand_beregner.o
  .debug_info    0x00000dde      0x106 Afstand/Pulse/Pulse.o
  .debug_info    0x00000ee4       0x89 Init/Init.o
- .debug_info    0x00000f6d       0x7c main.o
- .debug_info    0x00000fe9      0x1ef Menu/Menu.o
- .debug_info    0x000011d8      0x12e Menu/Menu_choices/Menu_choices.o
- .debug_info    0x00001306       0xd9 Menu/Menu_decoder/Menu_decoder.o
- .debug_info    0x000013df      0x105 Temperatur/Temp_auto/Temp_auto.o
- .debug_info    0x000014e4      0x152 Temperatur/Temp_auto/Temp_auto_display/Temp_auto_display.o
- .debug_info    0x00001636      0x1aa Temperatur/Temp_auto/Temp_beregner/Temp_beregner.o
- .debug_info    0x000017e0      0x112 Temperatur/Temp_choices/Temp_choices.o
- .debug_info    0x000018f2       0xd9 Temperatur/Temp_decoder/Temp_decoder.o
- .debug_info    0x000019cb      0x1f1 Temperatur/Temp_menu.o
- .debug_info    0x00001bbc      0x1b2 Temperatur/Temp_user/Temp_user.o
- .debug_info    0x00001d6e       0xb4 Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
- .debug_info    0x00001e22       0xf5 Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
- .debug_info    0x00001f17       0xb4 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
- .debug_info    0x00001fcb      0x107 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
- .debug_info    0x000020d2      0x78f c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
- .debug_info    0x00002861       0xb4 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+ .debug_info    0x00000f6d       0xad main.o
+ .debug_info    0x0000101a      0x1ef Menu/Menu.o
+ .debug_info    0x00001209      0x12e Menu/Menu_choices/Menu_choices.o
+ .debug_info    0x00001337       0xd9 Menu/Menu_decoder/Menu_decoder.o
+ .debug_info    0x00001410      0x105 Temperatur/Temp_auto/Temp_auto.o
+ .debug_info    0x00001515      0x152 Temperatur/Temp_auto/Temp_auto_display/Temp_auto_display.o
+ .debug_info    0x00001667      0x1aa Temperatur/Temp_auto/Temp_beregner/Temp_beregner.o
+ .debug_info    0x00001811      0x112 Temperatur/Temp_choices/Temp_choices.o
+ .debug_info    0x00001923       0xd9 Temperatur/Temp_decoder/Temp_decoder.o
+ .debug_info    0x000019fc      0x1f1 Temperatur/Temp_menu.o
+ .debug_info    0x00001bed      0x1b2 Temperatur/Temp_user/Temp_user.o
+ .debug_info    0x00001d9f       0xb4 Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
+ .debug_info    0x00001e53       0xf5 Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
+ .debug_info    0x00001f48       0xb4 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .debug_info    0x00001ffc      0x107 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .debug_info    0x00002103      0x78f C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .debug_info    0x00002892       0xb4 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
 
-.debug_abbrev   0x00000000     0x1afd
+.debug_abbrev   0x00000000     0x1b08
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0xb1a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega2560/avr6/crtatmega2560.o
  .debug_abbrev  0x00000b1a       0xac Afstand/Afstand.o
  .debug_abbrev  0x00000bc6       0x86 Afstand/Afstand_beregner/Afstand_beregner.o
  .debug_abbrev  0x00000c4c       0xb5 Afstand/Pulse/Pulse.o
  .debug_abbrev  0x00000d01       0x4f Init/Init.o
- .debug_abbrev  0x00000d50       0x5a main.o
- .debug_abbrev  0x00000daa      0x159 Menu/Menu.o
- .debug_abbrev  0x00000f03       0x97 Menu/Menu_choices/Menu_choices.o
- .debug_abbrev  0x00000f9a       0x92 Menu/Menu_decoder/Menu_decoder.o
- .debug_abbrev  0x0000102c       0x84 Temperatur/Temp_auto/Temp_auto.o
- .debug_abbrev  0x000010b0       0xb7 Temperatur/Temp_auto/Temp_auto_display/Temp_auto_display.o
- .debug_abbrev  0x00001167      0x10e Temperatur/Temp_auto/Temp_beregner/Temp_beregner.o
- .debug_abbrev  0x00001275       0x97 Temperatur/Temp_choices/Temp_choices.o
- .debug_abbrev  0x0000130c       0x92 Temperatur/Temp_decoder/Temp_decoder.o
- .debug_abbrev  0x0000139e      0x110 Temperatur/Temp_menu.o
- .debug_abbrev  0x000014ae      0x111 Temperatur/Temp_user/Temp_user.o
- .debug_abbrev  0x000015bf       0x7e Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
- .debug_abbrev  0x0000163d       0xa8 Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
- .debug_abbrev  0x000016e5       0x75 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
- .debug_abbrev  0x0000175a       0xb7 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
- .debug_abbrev  0x00001811      0x272 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
- .debug_abbrev  0x00001a83       0x7a c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+ .debug_abbrev  0x00000d50       0x65 main.o
+ .debug_abbrev  0x00000db5      0x159 Menu/Menu.o
+ .debug_abbrev  0x00000f0e       0x97 Menu/Menu_choices/Menu_choices.o
+ .debug_abbrev  0x00000fa5       0x92 Menu/Menu_decoder/Menu_decoder.o
+ .debug_abbrev  0x00001037       0x84 Temperatur/Temp_auto/Temp_auto.o
+ .debug_abbrev  0x000010bb       0xb7 Temperatur/Temp_auto/Temp_auto_display/Temp_auto_display.o
+ .debug_abbrev  0x00001172      0x10e Temperatur/Temp_auto/Temp_beregner/Temp_beregner.o
+ .debug_abbrev  0x00001280       0x97 Temperatur/Temp_choices/Temp_choices.o
+ .debug_abbrev  0x00001317       0x92 Temperatur/Temp_decoder/Temp_decoder.o
+ .debug_abbrev  0x000013a9      0x110 Temperatur/Temp_menu.o
+ .debug_abbrev  0x000014b9      0x111 Temperatur/Temp_user/Temp_user.o
+ .debug_abbrev  0x000015ca       0x7e Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
+ .debug_abbrev  0x00001648       0xa8 Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
+ .debug_abbrev  0x000016f0       0x75 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .debug_abbrev  0x00001765       0xb7 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .debug_abbrev  0x0000181c      0x272 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .debug_abbrev  0x00001a8e       0x7a C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
 
-.debug_line     0x00000000     0x1e09
+.debug_line     0x00000000     0x1e0b
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x1f9 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega2560/avr6/crtatmega2560.o
  .debug_line    0x000001f9      0x110 Afstand/Afstand.o
  .debug_line    0x00000309       0xef Afstand/Afstand_beregner/Afstand_beregner.o
  .debug_line    0x000003f8      0x126 Afstand/Pulse/Pulse.o
  .debug_line    0x0000051e      0x104 Init/Init.o
- .debug_line    0x00000622       0x71 main.o
- .debug_line    0x00000693      0x1c2 Menu/Menu.o
- .debug_line    0x00000855       0xc3 Menu/Menu_choices/Menu_choices.o
- .debug_line    0x00000918       0xb6 Menu/Menu_decoder/Menu_decoder.o
- .debug_line    0x000009ce      0x11d Temperatur/Temp_auto/Temp_auto.o
- .debug_line    0x00000aeb      0x10f Temperatur/Temp_auto/Temp_auto_display/Temp_auto_display.o
- .debug_line    0x00000bfa      0x1cd Temperatur/Temp_auto/Temp_beregner/Temp_beregner.o
- .debug_line    0x00000dc7       0xc3 Temperatur/Temp_choices/Temp_choices.o
- .debug_line    0x00000e8a       0xd5 Temperatur/Temp_decoder/Temp_decoder.o
- .debug_line    0x00000f5f      0x225 Temperatur/Temp_menu.o
- .debug_line    0x00001184      0x20c Temperatur/Temp_user/Temp_user.o
- .debug_line    0x00001390      0x145 Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
- .debug_line    0x000014d5       0xcb Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
- .debug_line    0x000015a0      0x116 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
- .debug_line    0x000016b6      0x152 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
- .debug_line    0x00001808      0x58c c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
- .debug_line    0x00001d94       0x75 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+ .debug_line    0x00000622       0x73 main.o
+ .debug_line    0x00000695      0x1c2 Menu/Menu.o
+ .debug_line    0x00000857       0xc3 Menu/Menu_choices/Menu_choices.o
+ .debug_line    0x0000091a       0xb6 Menu/Menu_decoder/Menu_decoder.o
+ .debug_line    0x000009d0      0x11d Temperatur/Temp_auto/Temp_auto.o
+ .debug_line    0x00000aed      0x10f Temperatur/Temp_auto/Temp_auto_display/Temp_auto_display.o
+ .debug_line    0x00000bfc      0x1cd Temperatur/Temp_auto/Temp_beregner/Temp_beregner.o
+ .debug_line    0x00000dc9       0xc3 Temperatur/Temp_choices/Temp_choices.o
+ .debug_line    0x00000e8c       0xd5 Temperatur/Temp_decoder/Temp_decoder.o
+ .debug_line    0x00000f61      0x225 Temperatur/Temp_menu.o
+ .debug_line    0x00001186      0x20c Temperatur/Temp_user/Temp_user.o
+ .debug_line    0x00001392      0x145 Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
+ .debug_line    0x000014d7       0xcb Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
+ .debug_line    0x000015a2      0x116 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .debug_line    0x000016b8      0x152 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .debug_line    0x0000180a      0x58c C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .debug_line    0x00001d96       0x75 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
 
 .debug_frame    0x00000000      0x43c
  *(.debug_frame)
@@ -1173,55 +1173,55 @@ END GROUP
  .debug_frame   0x00000230       0x24 Temperatur/Temp_user/Temp_user.o
  .debug_frame   0x00000254       0x24 Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
  .debug_frame   0x00000278       0x24 Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
- .debug_frame   0x0000029c       0x24 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
- .debug_frame   0x000002c0       0x24 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
- .debug_frame   0x000002e4      0x134 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
- .debug_frame   0x00000418       0x24 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+ .debug_frame   0x0000029c       0x24 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .debug_frame   0x000002c0       0x24 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .debug_frame   0x000002e4      0x134 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .debug_frame   0x00000418       0x24 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
 
-.debug_str      0x00000000      0xb59
+.debug_str      0x00000000      0xbe9
  *(.debug_str)
  .debug_str     0x00000000      0x3e6 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega2560/avr6/crtatmega2560.o
  .debug_str     0x000003e6      0x1a0 Afstand/Afstand.o
                                 0x1d4 (size before relaxing)
  .debug_str     0x00000586       0x70 Afstand/Afstand_beregner/Afstand_beregner.o
                                 0x1e3 (size before relaxing)
- .debug_str     0x000005f6       0x64 Afstand/Pulse/Pulse.o
+ .debug_str     0x000005f6       0xac Afstand/Pulse/Pulse.o
                                 0x1d4 (size before relaxing)
- .debug_str     0x0000065a       0x14 Init/Init.o
+ .debug_str     0x000006a2       0x14 Init/Init.o
                                 0x183 (size before relaxing)
- .debug_str     0x0000066e       0x16 main.o
-                                0x116 (size before relaxing)
- .debug_str     0x00000684       0x38 Menu/Menu.o
+ .debug_str     0x000006b6       0x16 main.o
+                                0x17d (size before relaxing)
+ .debug_str     0x000006cc       0x38 Menu/Menu.o
                                 0x1f5 (size before relaxing)
- .debug_str     0x000006bc       0x44 Menu/Menu_choices/Menu_choices.o
+ .debug_str     0x00000704       0x44 Menu/Menu_choices/Menu_choices.o
                                 0x1b3 (size before relaxing)
- .debug_str     0x00000700       0x35 Menu/Menu_decoder/Menu_decoder.o
+ .debug_str     0x00000748       0x35 Menu/Menu_decoder/Menu_decoder.o
                                 0x1b3 (size before relaxing)
- .debug_str     0x00000735       0x59 Temperatur/Temp_auto/Temp_auto.o
+ .debug_str     0x0000077d       0x59 Temperatur/Temp_auto/Temp_auto.o
                                 0x1d3 (size before relaxing)
- .debug_str     0x0000078e       0x7f Temperatur/Temp_auto/Temp_auto_display/Temp_auto_display.o
+ .debug_str     0x000007d6       0x7f Temperatur/Temp_auto/Temp_auto_display/Temp_auto_display.o
                                 0x1fa (size before relaxing)
- .debug_str     0x0000080d       0x4e Temperatur/Temp_auto/Temp_beregner/Temp_beregner.o
+ .debug_str     0x00000855       0x4e Temperatur/Temp_auto/Temp_beregner/Temp_beregner.o
                                 0x239 (size before relaxing)
- .debug_str     0x0000085b       0x37 Temperatur/Temp_choices/Temp_choices.o
+ .debug_str     0x000008a3       0x37 Temperatur/Temp_choices/Temp_choices.o
                                 0x1b9 (size before relaxing)
- .debug_str     0x00000892       0x4c Temperatur/Temp_decoder/Temp_decoder.o
+ .debug_str     0x000008da       0x4c Temperatur/Temp_decoder/Temp_decoder.o
                                 0x1bf (size before relaxing)
- .debug_str     0x000008de       0x2d Temperatur/Temp_menu.o
+ .debug_str     0x00000926       0x2d Temperatur/Temp_menu.o
                                 0x216 (size before relaxing)
- .debug_str     0x0000090b       0x67 Temperatur/Temp_user/Temp_user.o
+ .debug_str     0x00000953       0x67 Temperatur/Temp_user/Temp_user.o
                                 0x236 (size before relaxing)
- .debug_str     0x00000972       0x4e Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
+ .debug_str     0x000009ba       0x4e Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
                                 0x1d2 (size before relaxing)
- .debug_str     0x000009c0       0x3e Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
+ .debug_str     0x00000a08       0x3e Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
                                 0x1de (size before relaxing)
- .debug_str     0x000009fe       0x6e c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .debug_str     0x00000a46       0x6e C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
                                 0x1a7 (size before relaxing)
- .debug_str     0x00000a6c       0x15 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .debug_str     0x00000ab4       0x15 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
                                 0x1d2 (size before relaxing)
- .debug_str     0x00000a81       0xbb c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .debug_str     0x00000ac9      0x103 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
                                 0x2ab (size before relaxing)
- .debug_str     0x00000b3c       0x1d c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+ .debug_str     0x00000bcc       0x1d C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
                                 0x19f (size before relaxing)
 
 .debug_loc      0x00000000      0xc96
@@ -1236,9 +1236,9 @@ END GROUP
  .debug_loc     0x000004b0       0x48 Temperatur/Temp_user/Temp_user.o
  .debug_loc     0x000004f8       0x5f Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
  .debug_loc     0x00000557       0x2e Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
- .debug_loc     0x00000585       0x9e c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
- .debug_loc     0x00000623       0x48 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
- .debug_loc     0x0000066b      0x62b c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .debug_loc     0x00000585       0x9e C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .debug_loc     0x00000623       0x48 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .debug_loc     0x0000066b      0x62b C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1277,10 +1277,10 @@ END GROUP
  .debug_ranges  0x000000e0       0x10 Temperatur/Temp_user/Temp_user.o
  .debug_ranges  0x000000f0       0x10 Temperatur/Temp_user/Temp_user_decoder/Temp_user_decoder.o
  .debug_ranges  0x00000100       0x10 Temperatur/Temp_user/Temp_user_display/Temp_user_display.o
- .debug_ranges  0x00000110       0x10 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
- .debug_ranges  0x00000120       0x10 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
- .debug_ranges  0x00000130       0x90 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
- .debug_ranges  0x000001c0       0x10 c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
+ .debug_ranges  0x00000110       0x10 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ColumnScan.o)
+ .debug_ranges  0x00000120       0x10 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(ReadRow.o)
+ .debug_ranges  0x00000130       0x90 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(lcd.o)
+ .debug_ranges  0x000001c0       0x10 C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug\libDIH_Library.a(Pre_display.o)
 
 .debug_macro
  *(.debug_macro)

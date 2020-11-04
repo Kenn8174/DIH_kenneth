@@ -7,5 +7,5 @@ digraph "Temperatur/Temp_user/Temp_user_display" {
   dir_d89927c996274916e2f708afb9ad0d9b [shape=box, label="Temp_user_display", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d89927c996274916e2f708afb9ad0d9b.html"];
   }
   dir_23cb120d669071c3724c6f6330318f9c [shape=box label="setup" URL="dir_23cb120d669071c3724c6f6330318f9c.html"];
-  dir_d89927c996274916e2f708afb9ad0d9b->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000034_000025.html"];
+  dir_d89927c996274916e2f708afb9ad0d9b->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000036_000027.html"];
 }

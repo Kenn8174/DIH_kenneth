@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['temo_5fcolumn',['temo_column',['../_temp__auto_8c.html#a683c26b915eaecc8191f17f34659ab62',1,'Temp_auto.c']]],
-  ['temp_5frow',['temp_row',['../_temp__auto_8c.html#a1f7c508db29e4f3c24ac490fd631d05d',1,'Temp_auto.c']]]
+  ['user_5fcolumn',['user_column',['../_temp__user_8c.html#a1a79a839f4e7254ef74856443a09c874',1,'Temp_user.c']]],
+  ['user_5frow',['user_row',['../_temp__user_8c.html#a1241e0a793f0e65ac31091cd576578de',1,'Temp_user.c']]]
 ];

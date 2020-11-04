@@ -176,7 +176,7 @@ ADDITIONAL_DEPENDENCIES:=
 OUTPUT_FILE_DEP:= ./makedep.mk
 
 LIB_DEP+=  \
-c:/users/kenne/Documents/Atmel\ Studio/7.0/DIH_Projekt/DIH_Library/Debug/libDIH_Library.a
+C:/Users/kenne/Documents/Atmel\ Studio/7.0/DIH_Projekt/DIH_Library/Debug/libDIH_Library.a
 
 LINKER_SCRIPT_DEP+= 
 
@@ -341,7 +341,7 @@ all: $(OUTPUT_FILE_PATH) $(ADDITIONAL_DEPENDENCIES)
 $(OUTPUT_FILE_PATH): $(OBJS) $(USER_OBJS) $(OUTPUT_FILE_DEP) $(LIB_DEP) $(LINKER_SCRIPT_DEP)
 	@echo Building target: $@
 	@echo Invoking: AVR/GNU Linker : 5.4.0
-	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE) -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS) -Wl,-Map="DIH_Projekt.map" -Wl,-u,vfprintf -Wl,--start-group -Wl,-lm -Wl,-lDIH_Library  -Wl,--end-group -Wl,-L".." -Wl,-L"c:\users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug"  -Wl,--gc-sections -mrelax -mmcu=atmega2560 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\gcc\dev\atmega2560" -lprintf_flt -Wl,-u,vfscanf -lscanf_flt  
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE) -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS) -Wl,-Map="DIH_Projekt.map" -Wl,-u,vfprintf -Wl,--start-group -Wl,-lm -Wl,-lDIH_Library  -Wl,--end-group -Wl,-L".." -Wl,-L"C:\Users\kenne\Documents\Atmel Studio\7.0\DIH_Projekt\DIH_Library\Debug"  -Wl,--gc-sections -mrelax -mmcu=atmega2560 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\gcc\dev\atmega2560" -lprintf_flt -Wl,-u,vfscanf -lscanf_flt  
 	@echo Finished building target: $@
 	"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures  "DIH_Projekt.elf" "DIH_Projekt.hex"
 	"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -j .eeprom  --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0  --no-change-warnings -O ihex "DIH_Projekt.elf" "DIH_Projekt.eep" || exit 0

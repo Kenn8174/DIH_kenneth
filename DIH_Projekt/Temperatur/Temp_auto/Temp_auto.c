@@ -33,13 +33,14 @@ void Temp_auto()
 		temo_column = ColumnScan(temo_column);
 		temp_row = ReadRow();
 		
+		
 		if (temo_column + temp_row == 11)
 		{
 			Menu();
 			//temp_ex = 9;
 		}
 		
-		Temp_beregner();
+		Temp_beregner();  //SKAL IKKE BRUGES! BRUG DE ANDRE METHODER!
 						
 	}
 }

@@ -7,5 +7,5 @@ digraph "Temperatur/Temp_auto/Temp_auto_display" {
   dir_b6d24fc7a45a2ebb6afea00423ecfc68 [shape=box, label="Temp_auto_display", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b6d24fc7a45a2ebb6afea00423ecfc68.html"];
   }
   dir_23cb120d669071c3724c6f6330318f9c [shape=box label="setup" URL="dir_23cb120d669071c3724c6f6330318f9c.html"];
-  dir_b6d24fc7a45a2ebb6afea00423ecfc68->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000028_000025.html"];
+  dir_b6d24fc7a45a2ebb6afea00423ecfc68->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000030_000027.html"];
 }

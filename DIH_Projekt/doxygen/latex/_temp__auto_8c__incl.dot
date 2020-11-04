@@ -22,4 +22,6 @@ digraph "Temperatur/Temp_auto/Temp_auto.c"
   Node8 [label="Temp_beregner/Temp\l_beregner.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__beregner_8h.html",tooltip=" "];
   Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
   Node9 [label="Pre_display/Pre_display.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node0 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="../Menu/Menu.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

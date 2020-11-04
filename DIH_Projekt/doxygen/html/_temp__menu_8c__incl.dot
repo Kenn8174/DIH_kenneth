@@ -20,4 +20,6 @@ digraph "Temperatur/Temp_menu.c"
   Node7 [label="Temp_decoder/Temp_decoder.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__decoder_8h.html",tooltip=" "];
   Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node8 [label="Temp_choices/Temp_choices.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_temp__choices_8h.html",tooltip=" "];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="../Menu/Menu.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html",tooltip=" "];
 }

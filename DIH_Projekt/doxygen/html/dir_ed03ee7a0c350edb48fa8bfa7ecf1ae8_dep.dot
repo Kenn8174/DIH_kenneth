@@ -12,8 +12,8 @@ digraph "Temperatur/Temp_auto" {
   }
   }
   dir_23cb120d669071c3724c6f6330318f9c [shape=box label="setup" URL="dir_23cb120d669071c3724c6f6330318f9c.html"];
-  dir_ed03ee7a0c350edb48fa8bfa7ecf1ae8->dir_23cb120d669071c3724c6f6330318f9c [headlabel="3", labeldistance=1.5 headhref="dir_000027_000025.html"];
-  dir_ed03ee7a0c350edb48fa8bfa7ecf1ae8->dir_0173f08f0ece2fe8ff373512ae7dbec1 [headlabel="1", labeldistance=1.5 headhref="dir_000027_000029.html"];
-  dir_0173f08f0ece2fe8ff373512ae7dbec1->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000029_000025.html"];
-  dir_b6d24fc7a45a2ebb6afea00423ecfc68->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000028_000025.html"];
+  dir_ed03ee7a0c350edb48fa8bfa7ecf1ae8->dir_23cb120d669071c3724c6f6330318f9c [headlabel="3", labeldistance=1.5 headhref="dir_000029_000027.html"];
+  dir_ed03ee7a0c350edb48fa8bfa7ecf1ae8->dir_0173f08f0ece2fe8ff373512ae7dbec1 [headlabel="1", labeldistance=1.5 headhref="dir_000029_000031.html"];
+  dir_0173f08f0ece2fe8ff373512ae7dbec1->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000031_000027.html"];
+  dir_b6d24fc7a45a2ebb6afea00423ecfc68->dir_23cb120d669071c3724c6f6330318f9c [headlabel="1", labeldistance=1.5 headhref="dir_000030_000027.html"];
 }
